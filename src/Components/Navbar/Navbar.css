@@ -183,3 +183,10 @@
 
     
 }
+
+@media (min-width:1500px){
+    .navbar-cont{
+        width: 65%;
+        max-width: 65%;
+    }
+}

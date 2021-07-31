@@ -1,11 +1,4 @@
 import React from 'react';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import Flusa from '../../Images/flagusa.png';
-import Flger from '../../Images/flaggermany.png';
-import Flfran from '../../Images/flagfrance.png';
-import Flind from '../../Images/flagindia.png';
-import { Button } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 
 export default function NavbarItems() {
