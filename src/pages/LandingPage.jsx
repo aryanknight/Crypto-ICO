@@ -4,6 +4,7 @@ import Particles from '../Particles';
 import NavbarSmall from '../Components/Navbar/NavbarSmall';
 import HoverMenu from '../Components/Navbar/HoverMenu';
 import Home from '../Components/Home/Home.jsx';
+import ProbAndSol from '../Components/ProbAndSol/ProbAndSol';
 
 
 function LandingPage() {
@@ -17,6 +18,7 @@ function LandingPage() {
       <HoverMenu />
 
       <Home />
+      <ProbAndSol />
       
     </div>
   );

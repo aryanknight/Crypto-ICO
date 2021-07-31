@@ -1,0 +1,147 @@
+.prob-sol{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.prob-cont{
+    width: 85%;
+    max-width: 85%;
+    
+}
+
+.prob-head{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.sol-shade{
+    position: absolute;
+    color: #ffffff13;
+    left: 50%;
+    top:-80%;
+    transform: translateX(-50%);
+    font-size: 5rem;
+    z-index: -1;
+    font-weight: bold;
+}
+
+.prob-para{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+    font-weight: 600;
+    line-height: 1.9rem;
+    color: white;
+}
+
+.prob-para-cont{
+    max-width:50%;
+    text-align:center;
+}
+
+.prob-cont-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.prob-cont-text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prob-cont-text-head{
+    font-size: 24px;
+    width: 90%;
+    font-weight: 700;
+    color: white;
+}
+
+.prob-cont-text-para{
+    font-size: 16;
+    width: 90%;
+    color:#C7B8FF;
+    margin-top: 30px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.prob-cont-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.prob-img{
+    width: 70%;
+}
+
+@media (max-width:700px){
+    
+    .prob-sol{
+        margin-top: 100px;
+    }
+
+    .sol-shade{
+        display: none;
+    }
+
+    .prob-head{
+        font-size: 22px;
+    }
+
+    .prob-para{
+        margin-top: 40px;
+    }
+
+    .prob-para-cont{
+        min-width: 100%;
+    }
+
+    .prob-cont-text{
+        width: 100%;
+    }
+
+    .prob-cont-text-head{
+        width:100%;
+        font-size: 22px;
+    }
+
+    .prob-cont-text-para{
+        width:100%;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    #prob-2{
+        flex-direction: column-reverse;
+    }
+
+    .prob-cont-img{
+        width: 100%;
+    }
+
+}
+
+@media (min-width:1500px){
+
+    .prob-cont{
+        width: 65%;
+        max-width: 65%;
+    }
+
+}
