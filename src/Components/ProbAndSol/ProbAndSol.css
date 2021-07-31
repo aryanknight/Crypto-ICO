@@ -8,10 +8,9 @@
 .prob-cont{
     width: 85%;
     max-width: 85%;
-    
 }
 
-.prob-head{
+.head-text{
     width: 100%;
     text-align: center;
     font-weight: 700;
@@ -21,7 +20,7 @@
     z-index: 1;
 }
 
-.sol-shade{
+.shade-text{
     position: absolute;
     color: #ffffff13;
     left: 50%;
@@ -95,11 +94,11 @@
         margin-top: 100px;
     }
 
-    .sol-shade{
+    .shade-text{
         display: none;
     }
 
-    .prob-head{
+    .head-text{
         font-size: 22px;
     }
 

@@ -1,0 +1,95 @@
+.token{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+
+.token-cont{
+    width: 85%;
+    max-width: 85%;
+    
+}
+
+.token-cont-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.token-cont-left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.token-box{
+    width: 370px;
+    height: 480px;
+    background:linear-gradient(48deg, #42adff 0%, #0040ff 80%);
+    position: relative;
+}
+
+.token-cont-right{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.token-head{
+    font-size: 24px;
+    color: white;
+    margin-top: 30px;
+    max-width: 90%;
+}
+
+.token-para{
+    font-size: 16px;
+    color:#C7B8FF;
+    line-height: 24px;
+    max-width: 90%;
+}
+
+
+@media (max-width:700px){
+
+    .token{
+        margin-top: 100px;
+    }
+
+    .token-cont-left{
+        width: 100%;
+    }
+
+    .token-cont-right{
+        width: 100%;
+        padding-left: 0rem;
+    }
+
+    .token-head{
+        width:100%;
+        font-size: 22px;
+    }
+
+    .token-para{
+        width:100%;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .token-box{
+        width: 100%;
+        max-width: 340px;
+        height: 420px;
+    }    
+
+}

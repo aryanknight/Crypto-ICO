@@ -7,8 +7,8 @@ export default function ProbAndSol() {
     return (
         <div className="prob-sol">
             <div className="prob-cont">
-                <div className="prob-head">
-                    <div className="sol-shade">SOLUTIONS</div>
+                <div className="head-text">
+                    <div className="shade-text">SOLUTIONS</div>
                     PROBLEM & SOLUTIONS
                 </div>
                 <div className="prob-para">
