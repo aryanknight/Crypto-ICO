@@ -11,8 +11,8 @@ export default function Navbar() {
         <div className='navbar'>
             <div className='navbar-cont'>
                 <div className="navbar-left">
-                    <img src={Logo} id="logo" />
-                    <div className="heading-2" id="logo-text"><b>CRYPTO</b> ICO </div>
+                    <img src="https://multipad.co/5dad980d25aa83ccca7a7bd601acaec4.png" id="logo" />
+                    {/* <div className="heading-2" id="logo-text"><b>CRYPTO</b> ICO </div> */}
                 </div>
 
                 <div className="navbar-right heading-4">

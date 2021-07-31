@@ -6,6 +6,7 @@ import Flger from '../../Images/flaggermany.png';
 import Flfran from '../../Images/flagfrance.png';
 import Flind from '../../Images/flagindia.png';
 import { Button } from '@material-ui/core';
+import MenuIcon from '@material-ui/icons/Menu';
 
 export default function NavbarItems() {
 
@@ -37,11 +38,11 @@ export default function NavbarItems() {
 
     return (        
     <>
-        <div className="menu-item">What is ICO</div>
-        <div className="menu-item">Solutions</div>
-        <div className="menu-item">Whitepaper</div>
-        <div className="menu-item">Token Sale</div>
-        <div className="menu-item">Roadmap</div>
+        <div className="menu-item">Launch App</div>
+        <div className="menu-item">launch your product</div>
+        <div className="menu-item">Documentation</div>
+        {/* <div className="menu-item">Token Sale</div>
+        <div className="menu-item">Roadmap</div> */}
                     
         {/* <div className="menu-item" onMouseOver={() => expandMenu(0)} onMouseOut={() => collapseMenu(0)} >More<ExpandMoreIcon />
             <div className='menu-options'>
@@ -67,12 +68,10 @@ export default function NavbarItems() {
             </div>
         </div> */}
 
-        <div className="menu-item" ><Button variant='contained' color='primary'>Sign In</Button></div>
+        {/* <div className="menu-item" ><Button variant='contained' color='primary'>Sign In</Button></div> */}
 
         <div className="bar-menu" onClick={expandMenu}>
-            <div className="bars"></div>
-            <div className="bars"></div>
-            <div className="bars"></div>
+            <MenuIcon/>
         </div>
     </>
 

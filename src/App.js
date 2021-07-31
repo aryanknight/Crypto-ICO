@@ -1,25 +1,23 @@
-import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import Particles from './Particles';
-import NavbarSmall from './Components/Navbar/NavbarSmall';
-import HoverMenu from './Components/Navbar/HoverMenu';
-import Home from './Components/Home/Home.jsx';
+import React from 'react'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import LandingPage from './pages/LandingPage';
 
 
 function App() {
   return (
-    <div className="App">
-      <Particles  />
-
-{/*-------------------------- All Related to Menu------------------------- */}
-      <Navbar />
-      <NavbarSmall />
-      <HoverMenu />
-
-      <Home />
-      
+    <div>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+        </Switch>
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

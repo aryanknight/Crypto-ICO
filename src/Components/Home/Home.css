@@ -1,9 +1,9 @@
 .home{
-    height: 100vh;
+    
     width: 100%;
     display: flex;
     justify-content: center;
-    
+    margin-top: 5%;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -29,7 +29,7 @@
 .home-text-1{
     font-weight: 700;
     line-height: 2.75rem;
-    font-size: 32px;
+    font-size: 30.4px;
 }
 
 .home-text-2{
@@ -58,10 +58,14 @@
     
 }
 
+.btn_main{
+    background-image: 40deg , rgb(191,104,230);
+}
 
 @media (max-width:1000px){
     
     .home-cont{
+        
         flex-direction: column-reverse;
     }
 
@@ -91,6 +95,7 @@
     .home-right{
         width: 100%;
         height: 50%;
+       
     }
     
 }
