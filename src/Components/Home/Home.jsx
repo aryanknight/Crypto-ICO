@@ -31,28 +31,28 @@ export default function Home() {
                 
                 <div className="home-text-2-1" >
                     <div className="about-shade">ABOUT</div>
-                    WHAT IS CRYPTO ICO
+                    WHAT IS MULTIPAD
                 </div>
                 <div className="home-text-2 home-text-2-2" >
                     <div id="intro" >
-                        Crypto ICO aims to disrupt the cryptotrading industry by lowering the barrier
-                        to creating algorithmic trading models.
+                    MultiPad is a community-governed decentralized multi-chain powered launchpad, enabling upcoming promising projects to raise funds. MultiPad will also partner with these projects and help them with marketing, go-to-market strategies, technical advice and assistance wherever needed.
                     </div>    
                 </div>
 
                 <div className="home-cont-2-1">
                     <div className="home-cont-2-left">
                         <div className="home-cont-2-text-1">
-                            We built a platform for<br/>
-                            The crypto trading Industry
+                        As our tagline stands, at MultiPad, we are fully committed to our strong community and every decision is taken by keeping the interest of the community in mind.
                         </div>
-                        <div className="home-cont-2-text-2">
+                        {/* <div className="home-cont-2-text-2">
                             Cryptocurrency exchanges or digital currency exchanges (DCE) are businesses that allow customers to trade cryptocurrencies or digital currencies for other assets.
-                        </div>
+                        </div> */}
                         <div className="home-cont-2-text-3">
-                            Cryptocurrency exchanges or digital currency exchanges (DCE) are businesses that allow customers to trade cryptocurrencies or digital currencies for other assets
+                            This is the sole reason why strategic investment groups and Venture Capitalists will pay the same token price as our IDO investors.
                             <br/><br/>
-                            Creators of digital currencies are often independent of the DCEs that trade the currency.[6] In one type of system, digital currency providers (DCP), are businesses that keep and administer accounts.
+                            We want to ensure that the concentration of power (to vote/stake/win launchpad lotteries) is not in the hands of early investors getting MPAD at low prices, to the detriment of our community's interests.
+                            <br/><br/>
+                            BinanceSmartChain/ Polygon/ Solana/ Avalanche/ Cardano were chosen as the underlying blockchain to allow for low-cost and high-speed transactions starting with BinanceSmartChain implementation.
                         </div>
 
                     </div>
