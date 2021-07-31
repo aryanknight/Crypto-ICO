@@ -7,7 +7,7 @@
     top: 0%;
     left: 0%;
     padding: 1rem;
-    transition: 1s;
+    transition: 0.5s;
     z-index: 10;
     
 }
@@ -29,8 +29,11 @@
     cursor: pointer;
 }
 
+#logo{
+    max-width: 70%;
+}
+
 .navbar-right{
-    
     display: flex;
 }
 
@@ -45,36 +48,6 @@
 
 .menu-item:hover{
     color:rgb(216, 216, 216);
-    
-}
-
-.menu-li{
-    list-style: none;
-    padding: 0.5rem;
-    color: #7D7D7D;
-    width: 10rem;
-    display: flex;
-    align-items: center;
-    transition: 0.5s;
-}
-
-.menu-li:hover{
-    transform: translateX(10px);
-}
-
-#logo-text{
-    margin-left: 10px;
-}
-
-.menu-options{
-    position: absolute;
-    top:100%;
-    left:-10px;
-    display: none;
-    overflow: hidden;
-    transition: 1s;
-    background-color: white;
-    border-radius: 5px;
 }
 
 
@@ -94,6 +67,7 @@
 
 .small-nav{
     display: none;
+    position: fixed;
     transition: 1s;
 }
 
@@ -152,6 +126,11 @@
 
     .navbar{
         padding: 1rem 0.5rem;
+        position: absolute;
+    }
+
+    #logo{
+        max-width: 50%;
     }
 
     .menu-item{
@@ -188,5 +167,9 @@
     .navbar-cont{
         width: 65%;
         max-width: 65%;
+    }
+
+    #logo{
+        max-width: 100%;
     }
 }

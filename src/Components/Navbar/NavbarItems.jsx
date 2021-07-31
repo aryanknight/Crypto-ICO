@@ -3,6 +3,15 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 export default function NavbarItems() {
 
+        window.addEventListener("scroll",function(){
+            const nav=document.getElementsByClassName("navbar")[0];
+            if(window.scrollY>0){
+                nav.style.backgroundColor="#194089";
+            }else{
+                nav.style.backgroundColor="#102E6500";
+            }
+        });
+
         const expandMenu=()=>{
             
             const items=document.getElementsByClassName("small-nav-ul")[0];
