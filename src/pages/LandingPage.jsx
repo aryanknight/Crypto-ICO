@@ -7,16 +7,20 @@ import HoverMenu from '../Components/Navbar/HoverMenu';
 import Home from '../Components/Home/Home.jsx';
 import ProbAndSol from '../Components/ProbAndSol/ProbAndSol';
 import TokenUtility from '../Components/TokenUtility/TokenUtility';
-import WhyMultipad from '../Components/WhyMultipad/WhyMultipad.jsx'
+import WhyMultipad from '../Components/WhyMultipad/WhyMultipad.jsx';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Loading from '../Images/loading-scrn.gif';
 import gsap from 'gsap';
 
 
 function LandingPage() {
 
-  // useEffect(() => {
-  //   gsap.to("#loader",2,{y:"-100%",delay:3,zIndex:1000,ease:"power3.in"});
-  // }, []);
+  useEffect(() => {
+
+    // gsap.to("#loader",2,{y:"-100%",delay:3,zIndex:1000,ease:"power3.in"});
+    AOS.init({duration:1500,mirror:false,once:true,offset: 50});
+  }, []);
 
 
   return (
