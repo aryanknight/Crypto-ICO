@@ -31,7 +31,7 @@ export default function Home() {
                 </div>
                 <div className="home-text-2 home-text-2-2" >
                     <div id="intro" >
-                    MultiPad is a community-governed decentralized multi-chain powered launchpad, enabling upcoming promising projects to raise funds. MultiPad will also partner with these projects and help them with marketing, go-to-market strategies, technical advice and assistance wherever needed.
+                        MultiPad is a community-governed decentralized multi-chain powered launchpad, enabling upcoming promising projects to raise funds. MultiPad will also partner with these projects and help them with marketing, go-to-market strategies, technical advice and assistance wherever needed.
                     </div>    
                 </div>
 

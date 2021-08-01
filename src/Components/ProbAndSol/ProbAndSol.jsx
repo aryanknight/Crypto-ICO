@@ -11,13 +11,13 @@ export default function ProbAndSol() {
                     <div className="shade-text">SOLUTIONS</div>
                     PROBLEM & SOLUTIONS
                 </div>
-                <div className="prob-para">
-                    <div className="prob-para-cont">
+                <div className="para">
+                    <div className="para-cont">
                         More than $40 million in assets were placed under restraint pending forfeiture, and more than 30
                         Liberty Reserve exchanger domain names were seized.
                     </div>
                 </div>
-                
+
                 <div className="prob-cont-1">
                     <div className="prob-cont-text">
                         <div className="prob-cont-text-head">PROBLEMS</div>

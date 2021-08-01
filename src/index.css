@@ -9,6 +9,46 @@ body{
   font-family: 'Comfortaa', cursive;
 }
 
+.head-text{
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.shade-text{
+  position: absolute;
+  color: #ffffff13;
+  left: 50%;
+  top:-80%;
+  transform: translateX(-50%);
+  font-size: 5rem;
+  z-index: -1;
+  font-weight: bold;
+}
+
+.para{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 68px;
+  font-weight: 600;
+  line-height: 1.9rem;
+  color: white;
+}
+
+.para-cont{
+  max-width:50%;
+  text-align:center;
+}
+
+.button-style{
+  background-color: brown;
+}
+
 .heading-1{
   font-size: 32px;
 }
@@ -23,4 +63,16 @@ body{
 
 .heading-4{
   font-size: 14px;
+}
+
+@media (max-width:700px){
+
+  .para{
+    margin-top: 40px;
+  }
+
+.para-cont{
+    min-width: 100%;
+  }
+
 }
