@@ -34,6 +34,38 @@
     position: relative;
 }
 
+.token-text-box{
+    max-width: 350px;
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    left:10px;
+    font-size:14px
+}
+
+.token-doc-box{
+    max-width: 300px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left:10px;
+    font-size:14px;
+    cursor:pointer;
+}
+
+#token-logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-55%,-80%);
+    width: 70%;
+}
+
+#docs-link:visited , #docs-link{ 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
 .token-cont-right{
     width: 60%;
     display: flex;
@@ -91,5 +123,10 @@
         max-width: 340px;
         height: 420px;
     }    
+
+    .token-text-box{
+        max-width: 290px;
+        font-size:14px
+    }
 
 }

@@ -27,7 +27,7 @@ export default function Particle() {
               color:'#3261b8'
             },
             move:{
-              speed:0.8
+              speed:3
             }
           }
         }} />

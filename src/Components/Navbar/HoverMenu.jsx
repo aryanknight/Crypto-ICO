@@ -9,10 +9,10 @@ export default function HoverMenu() {
     return (
         <div className="hover-menu">
             <div className="hover-menu-cont">
-                <TwitterIcon className="hover-item" />
-                <GitHubIcon className="hover-item" />
-                <TelegramIcon className="hover-item" />
-                <FacebookIcon className="hover-item" />
+            <a href="#" target="_blank"><TwitterIcon className="hover-item" /></a>
+            <a href="#" target="_blank"><GitHubIcon className="hover-item" /></a>
+            <a href="#" target="_blank"><TelegramIcon className="hover-item" /></a>
+            <a href="#" target="_blank"><FacebookIcon className="hover-item" /></a>
             </div>   
         </div>
     )

@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../../Images/logo.png';
 import NavbarItems from './NavbarItems';
 import './Navbar.css';
 
