@@ -8,6 +8,7 @@ import Home from '../Components/Home/Home.jsx';
 import ProbAndSol from '../Components/ProbAndSol/ProbAndSol';
 import TokenUtility from '../Components/TokenUtility/TokenUtility';
 import WhyMultipad from '../Components/WhyMultipad/WhyMultipad.jsx';
+import Roadmap from '../Components/Roadmap/Roadmap';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Loading from '../Images/loading-scrn.gif';
@@ -46,6 +47,7 @@ function LandingPage() {
       <WhyMultipad/>
       <ProbAndSol />
       <TokenUtility />
+      <Roadmap/>
       
     </div>
   );
