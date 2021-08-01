@@ -42,11 +42,19 @@
     display: flex;
     align-items: center;
     position: relative;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
-.menu-item:hover{
+.menu-link{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-link:visited{
+    color: white;
+}
+
+.menu-link:hover{
     color:rgb(216, 216, 216);
 }
 

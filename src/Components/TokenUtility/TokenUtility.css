@@ -32,6 +32,7 @@
     height: 480px;
     background:linear-gradient(48deg, #42adff 0%, #0040ff 80%);
     position: relative;
+    overflow: hidden;
 }
 
 .token-text-box{

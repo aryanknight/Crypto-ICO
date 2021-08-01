@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from "@material-ui/core";
+import Circles from "../../Images/circles.png";
 import FeatureImg from '../../Images/featureimg.png';
 import './Home.css';
 
@@ -13,8 +13,7 @@ export default function Home() {
                         <span style={{fontWeight:'bolder'}}>MultiPad</span> is a community governed, decentralized multi-chain powered launchpad.
                     </div>
                     <div className="home-buttons">
-                        <button className="button-style" id="home-btn-1" >Purchase Token</button>
-                        <button className="button-style" id="home-btn-2" style={{marginLeft:'20px'}}>Whitepaper</button>
+                        <button className="button-style" id="home-btn-1" >Apply For Whitelist</button>
                     </div>
                 </div>
                 
@@ -24,7 +23,8 @@ export default function Home() {
             </div>
 
             <div className="home-cont-2" >
-                
+                <img id="home-circles" src={Circles} />
+
                 <div className="home-text-2-1" data-aos="fade-up">
                     <div className="about-shade">ABOUT</div>
                     WHAT IS MULTIPAD

@@ -40,9 +40,18 @@ export default function NavbarItems() {
 
     return (        
     <>
-        <div className="menu-item">Launch App</div>
-        <div className="menu-item">launch your product</div>
-        <div className="menu-item">Documentation</div>
+        <div className="menu-item">
+            <a href="#" className="menu-link" target="_blank">Launch App</a>
+        </div>
+        <div className="menu-item">
+            <a href="#" className="menu-link" target="_blank">Launch Your Product</a>
+        </div>
+        <div className="menu-item">
+            <a className="menu-link" href="https://multipad.gitbook.io/multipad/" target="_blank">Documentation</a>
+        </div>
+        <div className="menu-item">
+            <a href="https://multipad.co/77b74b2ad8f9c55e8e05d25520711cc2.pdf" className="menu-link" target="_blank">One Pager</a>
+        </div>
         {/* <div className="menu-item">Token Sale</div>
         <div className="menu-item">Roadmap</div> */}
                     

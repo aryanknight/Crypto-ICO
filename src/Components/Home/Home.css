@@ -73,6 +73,13 @@
     max-width: 85%;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+}
+
+#home-circles{
+    position:absolute;
+    width:600px;
+    left:-40%;
 }
 
 .home-text-2-1{
@@ -209,6 +216,11 @@
 
     #anim-img{
         max-width: 100%;
+    }
+    
+    #home-circles{
+        width:400px;
+        left:-90%;
     }
 
     .home-text-1{

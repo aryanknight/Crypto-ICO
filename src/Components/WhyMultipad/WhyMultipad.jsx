@@ -1,10 +1,12 @@
 import React from 'react';
 import ManGif from '../../Images/man.gif';
+import Circles from "../../Images/circles.png";
 import "./WhyMultipad.css"
 
 export default function WhyMultipad() {
     return (
         <div className="why-multi" >
+            <img id="why-circles" src={Circles} />
             <div className="why-multi-cont">
                 <div className="head-text" data-aos="fade-up">
                     <div className="shade-text">WHY</div>
