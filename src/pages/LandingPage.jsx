@@ -7,18 +7,20 @@ import Home from '../Components/Home/Home.jsx';
 import ProbAndSol from '../Components/ProbAndSol/ProbAndSol';
 import TokenUtility from '../Components/TokenUtility/TokenUtility';
 import WhyMultipad from '../Components/WhyMultipad/WhyMultipad.jsx'
+import Loading from '../Images/loading-scrn.gif';
 
 
 function LandingPage() {
   return (
     <div className="App">
+      
       <Particles  />
 
 {/*-------------------------- All Related to Menu------------------------- */}
       <Navbar />
       <NavbarSmall />
       <HoverMenu />
-
+      
       <Home />
       <WhyMultipad/>
       <ProbAndSol />

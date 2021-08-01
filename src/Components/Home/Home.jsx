@@ -13,8 +13,8 @@ export default function Home() {
                         <span style={{fontWeight:'bolder'}}>MultiPad</span> is a community governed, decentralized multi-chain powered launchpad.
                     </div>
                     <div className="home-buttons">
-                        <Button variant="contained" color="primary" id="home-btn-1" >Purchase Token</Button>
-                        <Button variant="contained" color="primary" id="home-btn-2" style={{marginLeft:'20px'}}>Whitepaper</Button>
+                        <button className="button-style" id="home-btn-1" >Purchase Token</button>
+                        <button className="button-style" id="home-btn-2" style={{marginLeft:'20px'}}>Whitepaper</button>
                     </div>
                 </div>
                 
