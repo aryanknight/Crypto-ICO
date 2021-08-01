@@ -10,11 +10,7 @@ export default function Home() {
                 
                 <div className="home-left">
                     <div className="home-text-1">
-                        Crypto ICO is modern, clean and gradient ui ico most trending
-                            template of 2018
-                    </div>
-                    <div className="home-text-2">
-                        First decentralized marketing platform that allows <br/>merchants and affiliates.
+                        <span style={{fontWeight:'bolder'}}>MultiPad</span> is a community governed, decentralized multi-chain powered launchpad.
                     </div>
                     <div className="home-buttons">
                         <Button variant="contained" color="primary" id="home-btn-1" >Purchase Token</Button>
@@ -41,12 +37,9 @@ export default function Home() {
 
                 <div className="home-cont-2-1">
                     <div className="home-cont-2-left">
-                        <div className="home-cont-2-text-1">
+                        <div className="home-cont-2-text-3">
                         As our tagline stands, at MultiPad, we are fully committed to our strong community and every decision is taken by keeping the interest of the community in mind.
                         </div>
-                        {/* <div className="home-cont-2-text-2">
-                            Cryptocurrency exchanges or digital currency exchanges (DCE) are businesses that allow customers to trade cryptocurrencies or digital currencies for other assets.
-                        </div> */}
                         <div className="home-cont-2-text-3">
                             This is the sole reason why strategic investment groups and Venture Capitalists will pay the same token price as our IDO investors.
                             <br/><br/>
