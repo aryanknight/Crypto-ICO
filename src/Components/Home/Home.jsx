@@ -5,8 +5,8 @@ import './Home.css';
 
 export default function Home() {
     return (
-        <div className="home">
-            <div className="home-cont-1">
+        <div className="home" >
+            <div className="home-cont-1" data-aos="fade-up">
                 
                 <div className="home-left">
                     <div className="home-text-1">
@@ -18,24 +18,24 @@ export default function Home() {
                     </div>
                 </div>
                 
-                <div className="home-right">
+                <div className="home-right" >
                     <img id="anim-img" src="https://multipad.co/162fc25721d32ca0accf57ebe0e5d952.gif" alt="" />
                 </div>
             </div>
 
-            <div className="home-cont-2">
+            <div className="home-cont-2" >
                 
-                <div className="home-text-2-1" >
+                <div className="home-text-2-1" data-aos="fade-up">
                     <div className="about-shade">ABOUT</div>
                     WHAT IS MULTIPAD
                 </div>
-                <div className="home-text-2 home-text-2-2" >
+                <div className="home-text-2 home-text-2-2" data-aos="fade-up">
                     <div id="intro" >
                         MultiPad is a community-governed decentralized multi-chain powered launchpad, enabling upcoming promising projects to raise funds. MultiPad will also partner with these projects and help them with marketing, go-to-market strategies, technical advice and assistance wherever needed.
                     </div>    
                 </div>
 
-                <div className="home-cont-2-1">
+                <div className="home-cont-2-1" data-aos="fade-up">
                     <div className="home-cont-2-left">
                         <div className="home-cont-2-text-3">
                         As our tagline stands, at MultiPad, we are fully committed to our strong community and every decision is taken by keeping the interest of the community in mind.
@@ -49,7 +49,7 @@ export default function Home() {
                         </div>
 
                     </div>
-                    <div className="home-cont-2-right">
+                    <div className="home-cont-2-right" data-aos="fade-up">
                         <img src={FeatureImg} alt="" id="feature-img" />
                     </div>
                 </div>
