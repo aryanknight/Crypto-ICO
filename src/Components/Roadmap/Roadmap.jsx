@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Chrono } from "react-chrono";
 import './Roadmap.css';
 
 export default function Roadmap() {
 
-    const items = [{title: "May 1940"},{title: "May 1940"},{title: "May 1940"}];
+    const [mode,setMode]=useState("VERTICAL_ALTERNATING")
+    
+    useEffect(()=>{
+        if(window.screen.width<750){
+            setMode("VERTICAL")
+        }
+    },[]);
     
     return (
         <div className="roadmap">
@@ -15,7 +21,7 @@ export default function Roadmap() {
                 </div>
                 <div className="roadmap-cont-1">
                     <div className="timeline">
-                        <Chrono mode="VERTICAL_ALTERNATING"  hideControls={true} cardHeight="100" useReadMore={false} theme={{ 
+                        <Chrono mode={mode} cardWidth="300" hideControls={true} cardHeight="100" useReadMore={false} theme={{ 
                             primary: "#496BD9",
                             secondary: "#496BD9",
                             cardBgColor: "white",
