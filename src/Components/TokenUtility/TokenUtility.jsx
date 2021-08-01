@@ -15,7 +15,7 @@ export default function TokenUtility() {
                     <div className="token-cont-left">
                         <div className="token-box">
                             <div className="token-text-box">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit  term concerning a type of government-issued document has proliferated, taking a somewhat new 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit  term 
                             </div>
                             <div className="token-doc-box"  >
                                 <a href="https://multipad.gitbook.io/multipad/" target="_blank" id="docs-link">Read Documentation...</a>
