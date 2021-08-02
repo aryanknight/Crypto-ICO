@@ -20,6 +20,12 @@
 .tokenomics-left{
     width: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-coin{
+    width:60%;
 }
 
 .tokenomics-right{
@@ -40,6 +46,10 @@
 
     .tokenomics{
         margin-top: 100px;
+    }
+
+    .tokenomics-cont-1{
+        margin-top: 50px;
     }
 
     .tokenomics-left{

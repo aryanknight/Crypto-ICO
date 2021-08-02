@@ -1,4 +1,5 @@
 import React from 'react';
+import OurCoin from "../../Images/ourcoin.png";
 import './Tokenomics.css'; 
 
 export default function Tokenomics() {
@@ -12,7 +13,7 @@ export default function Tokenomics() {
                 <div className="tokenomics-cont-1">
                     
                     <div className="tokenomics-left">
-
+                        <img src={OurCoin} id="our-coin" />
                     </div>
 
                     <div className="tokenomics-right">
