@@ -10,6 +10,7 @@ import TokenUtility from '../Components/TokenUtility/TokenUtility';
 import WhyMultipad from '../Components/WhyMultipad/WhyMultipad.jsx';
 import Roadmap from '../Components/Roadmap/Roadmap';
 import FAQ from '../Components/FAQ/FAQ.jsx';
+import Footer from '../Components/Footer/Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Loading from '../Images/loading-scrn.gif';
@@ -50,6 +51,7 @@ function LandingPage() {
       <TokenUtility />
       <Roadmap/>
       <FAQ />
+      <Footer />
       
     </div>
   );
