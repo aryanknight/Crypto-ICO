@@ -1,5 +1,7 @@
 import React from 'react';
-import Logo from '../../Images/logo.png';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import TelegramIcon from '@material-ui/icons/Telegram';
+import { ReactComponent as Logo } from '../../Images/medium.svg';
 import './Footer.css';
 
 export default function Footer() {
@@ -11,9 +13,33 @@ export default function Footer() {
                     <div className="footer-text">
                         MultiPad is a community-governed decentralized multi-chain powered launchpad, enabling upcoming promising projects to raise funds.
                     </div>
+                    <div className="footer-icons">
+
+                        <a href="https://twitter.com/multi_pad" target="_blank"><TwitterIcon style={{color:'white'}} /></a>
+                        <a href="https://telegram.me/multipad_official" target="_blank"><TelegramIcon style={{color:'white',marginLeft:'15px'}}/></a>
+                        <a href="https://medium.com/@multipad.official" target="_blank">
+                            <Logo fill="white" style={{width:'20px',height:'20px',marginLeft:'20px'}}/>
+                        </a>
+                    
+                    </div>
                 </div>
-                <div className="footer-sec-2"></div>
-                <div className="footer-sec-3"></div>
+                <div className="footer-sec-2">
+                    <div className="footer-head">
+                        Useful Links
+                    </div>
+                    <li className="footer-li">
+                        <a className="menu-link" href="#" target="_blank">About Us</a>
+                    </li>
+                    <li className="footer-li">
+                        <a className="menu-link" href="#" target="_blank">Launch App</a>
+                    </li>
+                    <li className="footer-li">
+                        <a className="menu-link" href="#" target="_blank">Launch Your Project</a>
+                    </li>
+                    <li className="footer-li">
+                        <a className="menu-link" href="https://multipad.gitbook.io/multipad/" target="_blank">Documentation</a>
+                    </li>
+                </div>
             </div>
         </div>
     )
