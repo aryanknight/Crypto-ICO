@@ -1,0 +1,40 @@
+.launch-app{
+    background-color: rgba(100, 148, 237, 0);
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(10deg , #140E38 0%, #140E38 25%, #1a1249 35%, #1a1249 65%, #22195a 75%, #22195a 100%);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* ---------------------------------------BOX-------------------------------------------- */
+.box{
+    padding: 1rem;
+    background-color: turquoise;
+    height: 330px;
+    width: 286px;
+    max-width: 300px;
+    max-height: 350px;
+    border-radius: 20px;
+}
+
+.box-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-button{
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: tomato;
+    height:30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,6 +1,7 @@
 .App{
   background-color: rgba(100, 148, 237, 0);
   max-width: 100vw;
+  min-height: 100vh;
   overflow-x: hidden;
   background-image: linear-gradient(60deg , #140E38 0%, #140E38 25%, #14387B 35%, #14387B 65%, #140E38 75%, #140E38 100%);
   background-repeat: no-repeat;
