@@ -1,0 +1,71 @@
+.tokenomics{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    position: relative;
+}
+
+.tokenomics-cont{
+    width: 85%;
+    max-width: 85%;
+}
+
+.tokenomics-cont-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.tokenomics-left{
+    width: 50%;
+    display: flex;
+}
+
+.tokenomics-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.token-para-1{
+    font-size: 16px;
+    color:#C7B8FF;
+    line-height: 24px;
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+@media (max-width:700px){
+
+    .tokenomics{
+        margin-top: 100px;
+    }
+
+    .tokenomics-left{
+        width: 100%;
+    }
+
+    .tokenomics-right{
+        width: 100%;
+        padding-left: 0rem;
+    }
+
+    .token-para-1{
+        width:100%;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+}    
+
+@media (min-width:1500px){
+    
+    .tokenomics-cont{
+        width: 65%;
+        max-width: 65%;
+    }
+
+}

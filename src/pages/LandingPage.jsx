@@ -7,6 +7,7 @@ import HoverMenu from '../Components/Navbar/HoverMenu';
 import Home from '../Components/Home/Home.jsx';
 import ProbAndSol from '../Components/ProbAndSol/ProbAndSol';
 import TokenUtility from '../Components/TokenUtility/TokenUtility';
+import Tokenomics from '../Components/Tokenomics/Tokenomics';
 import WhyMultipad from '../Components/WhyMultipad/WhyMultipad.jsx';
 import Roadmap from '../Components/Roadmap/Roadmap';
 import FAQ from '../Components/FAQ/FAQ.jsx';
@@ -49,6 +50,7 @@ function LandingPage() {
       <WhyMultipad/>
       <ProbAndSol />
       <TokenUtility />
+      <Tokenomics />
       <Roadmap/>
       <FAQ />
       <Footer />
