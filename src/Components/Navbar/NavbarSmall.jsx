@@ -7,7 +7,7 @@ export default function NavbarSmall() {
                 <br />
                 
                 <li style={{cursor: 'pointer'}} className="small-nav-li">
-                    <a href="#" className="menu-link" target="_blank">Launch App</a>
+                    <a href="/launch-app" className="menu-link" target="_blank">Launch App</a>
                 </li>
                 <li style={{cursor: 'pointer'}} className="small-nav-li">
                     <a href="#" className="menu-link" target="_blank">Launch Your Product</a>

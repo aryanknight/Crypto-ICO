@@ -11,15 +11,31 @@
     font-weight: 400;
 }
 
+.launch-app-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.launch-app-cont-1{
+    width: 85%;
+    max-width: 85%;
+}
+
 /* ---------------------------------------BOX-------------------------------------------- */
 .box{
+    margin: 20px;
     padding: 1rem;
-    background-color: turquoise;
-    height: 330px;
+    background: rgba( 255, 255, 255, 0.30 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    min-height: 330px;
     width: 286px;
     max-width: 300px;
-    max-height: 350px;
     border-radius: 20px;
+    color: rgb(226, 226, 226);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .box-head{
@@ -31,10 +47,88 @@
 .box-button{
     font-size: 16px;
     border-radius: 10px;
-    background-color: tomato;
+    background: #318CE7;
     height:30px;
     width: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+progress[value]{
+    width:80%;
+    max-height:10px;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius:45px;
+    overflow:hidden;
+  }
+  
+  progress[value]::-webkit-progress-value {
+    background-color: rgb(0, 140, 255);
+    
+  }
+
+
+
+.progress-bar-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.allocation{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+/* ---------------------------------------------Tabs------------------------------------------------- */
+
+.tabs{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+}
+
+.tabs-cont{
+    width: 85%;
+    max-width:85%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tab{
+    margin:20px;
+    min-width: 200px;
+    min-height: 20px;
+    background-color:#316be7;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.5rem;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    color: white;
+}
+
+@media(max-width:800px){
+    
+
+    .tab{
+        margin:10px;
+        border-radius: 20px;
+        font-size: 16px;
+    }
 }

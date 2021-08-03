@@ -41,7 +41,7 @@ export default function NavbarItems() {
     return (        
     <>
         <div className="menu-item">
-            <a href="#" className="menu-link" target="_blank">Launch App</a>
+            <a href="/launch-app" className="menu-link" target="_blank">Launch App</a>
         </div>
         <div className="menu-item">
             <a href="#" className="menu-link" target="_blank">Launch Your Product</a>

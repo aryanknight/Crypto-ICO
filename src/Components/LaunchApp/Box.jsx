@@ -18,10 +18,27 @@ export default function Box() {
                     </div>
                 </div>
            </div>
-           <div style={{marginTop:'10px',borderBottom:'1px solid red'}}>Total Raise</div>
-           <div className=""><b>TBA</b></div>
-           <div>
-               <LinearProgress value="40" variant='determinate'/>
+           <div style={{marginTop:'10px',borderBottom:'1px solid white'}}>Total Raise</div>
+           <div ><b>TBA</b></div>
+           
+           <div className="progress-bar">
+                <div style={{marginTop:'10px'}} >Progress</div>
+                <div className="progress-bar-cont">
+                    <progress max="100" value="47"></progress>
+                    <div >47%</div>
+                </div>     
+           </div>
+
+           <div className="allocation">
+               <div className="min-alloc">
+                    <div style={{fontSize:'14px',fontWeight:'400'}}>Min Allocation</div>
+                    <div><b>TBA</b></div>
+               </div>
+
+               <div className="max-alloc">
+                    <div style={{fontSize:'14px',fontWeight:'400'}} >Max Allocation </div>
+                    <div><b>TBA</b></div>
+               </div>
            </div>
         </div>
     )
