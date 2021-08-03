@@ -19,7 +19,6 @@ export default function HoverMenu() {
         <div className="hover-menu">
             <div className="hover-menu-cont">
             <a href="https://twitter.com/multi_pad" target="_blank"><TwitterIcon className="hover-item" /></a>
-            <a href="#" target="_blank"><GitHubIcon className="hover-item" /></a>
             <a href="https://telegram.me/multipad_official" target="_blank"><TelegramIcon className="hover-item" /></a>
 
             {/* This is not a Material Icon and also use svg icon of 20*20px for this*/}

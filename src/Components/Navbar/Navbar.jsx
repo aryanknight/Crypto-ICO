@@ -1,5 +1,6 @@
 import React from 'react';
 import NavbarItems from './NavbarItems';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -10,7 +11,9 @@ export default function Navbar() {
         <div className='navbar'>
             <div className='navbar-cont'>
                 <div className="navbar-left">
-                    <img src="https://multipad.co/5dad980d25aa83ccca7a7bd601acaec4.png" id="logo" />
+                    <NavLink to="/">
+                        <img src="https://multipad.co/5dad980d25aa83ccca7a7bd601acaec4.png" id="logo" />
+                    </NavLink>
                     {/* <div className="heading-2" id="logo-text"><b>CRYPTO</b> ICO </div> */}
                 </div>
 

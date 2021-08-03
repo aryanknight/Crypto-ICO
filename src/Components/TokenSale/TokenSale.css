@@ -1,4 +1,4 @@
-.why-multi{
+.token-sale{
     width:100%;
     display: flex;
     justify-content: center;
@@ -6,75 +6,56 @@
     position: relative;
 }
 
-#why-circles{
-    position: absolute;
-    right: -20%;
-}
-
-.why-multi-cont{
+.token-sale-cont{
     width: 85%;
     max-width: 85%;
 }
 
-.why-multi-cont-1{
+.token-sale-cont-1{
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
 }
 
-.why-multi-left{
+.token-sale-left{
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.image-container{
-    max-width: 90%;
-}
 
-#man-gif{
-    width:100%;
-}
-
-.why-multi-right{
+.token-sale-right{
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding-left: 1rem;
     font-family: 'Comfortaa', cursive;
-    
-}
+}    
 
-@media (max-width:750px){
+@media (max-width:700px){
 
-    .why-multi{
+    .token-sale{
+        width:100%;
+        display: flex;
+        justify-content: center;
         margin-top: 100px;
+        position: relative;
     }
 
-    .why-multi-left{
+    .token-sale-left{
         width: 100%;
+        
     }
-
-    .why-multi-right{
+    
+    .token-sale-right{
         width: 100%;
-    }
-
-    #why-circles{
-        width: 300px;
-        right: -50%;
-    }
+    } 
 }
 
 @media (min-width:1500px){
-
-    .why-multi-cont{
+    .token-sale-cont{
         width: 65%;
+        max-width: 65%;
     }
-
-    #why-circles{
-        position: absolute;
-        right: -10%;
-    }
-
 }
