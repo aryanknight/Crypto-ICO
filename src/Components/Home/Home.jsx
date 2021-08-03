@@ -13,7 +13,9 @@ export default function Home() {
                         <span style={{fontWeight:'bolder'}}>MultiPad</span> is a community governed, decentralized multi-chain powered launchpad.
                     </div>
                     <div className="home-buttons">
-                        <button className="button-style" id="home-btn-1" >Apply For Whitelist</button>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTfJXmv_PBEHC0klKOyuoe215ZeDPemumm1UgYMAR_pN6I1w/viewform" className='menu-link' target="_blank">
+                            <button className="button-style" id="home-btn-1" >Apply For Whitelist</button>
+                        </a>
                     </div>
                 </div>
                 

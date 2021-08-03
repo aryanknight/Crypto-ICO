@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useEffect}from 'react';
 import Navbar from '../../Navbar/Navbar.jsx';
 import NavbarSmall from '../../Navbar/NavbarSmall.jsx';
 import Particles from '../../../Particles';
@@ -25,6 +25,11 @@ export default function Launch1() {
 
     const classes = useStyles();
 
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+    },[]);
+
+    
     const items=[{no:1,alloc:0,date:'27/04/20',claimed:'0'},
                 {no:2,alloc:98,date:'21/04/18',claimed:'12'},
                 {no:3,alloc:85,date:'27/04/19',claimed:'30'},
