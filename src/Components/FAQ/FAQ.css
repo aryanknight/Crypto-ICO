@@ -36,17 +36,18 @@
 .faq-question{
     width:100%;
     padding: 0.4rem 1rem;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    color:#212529;
 }
 
 .faq-ans{
     width:100%;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     max-height: 0px;
     padding: 0 1rem;
