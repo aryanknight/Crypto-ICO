@@ -19,9 +19,9 @@ export default function FAQ() {
                 </div>
 
                 <div className="faq-cont-1">
-                    <div className="faq-box">
+                    <div className="faq-box" data-aos="fade-up">
                         
-                        <QnA no="0" question="What is Multipad ?"
+                        <QnA no="0" question="What is Multipad ?" 
                             answer="MultiPad is a community-governed, decentralized multi-chain powered launchpad, enabling startups to raise funds. We were inspired to solve two major problems in the launchpad space: low allocations and the inefficiency of first-come, first-served token sales. We will partner with projects and help them with marketing, go-to-market strategies, technical advice and assistance. We are “Committed to Community” and will treat every single stakeholder in MultiPad— strategic partners, individual investors and our project partners—fairly and equally."/>
                         
                         <QnA no="1" question="How are we committed to the community ?"

@@ -6,13 +6,13 @@ export default function Tokenomics() {
     return (
         <div className="tokenomics">
             <div className="tokenomics-cont">
-                <div className="head-text">
+                <div className="head-text" data-aos="fade-up">
                     <div className="shade-text">TOKENOMICS</div>
                         TOKENOMICS
                 </div>
-                <div className="tokenomics-cont-1">
+                <div className="tokenomics-cont-1" >
                     
-                    <div className="tokenomics-left">
+                    <div className="tokenomics-left" data-aos="fade-up">
                         <img src={OurCoin} id="our-coin" />
                     </div>
 
