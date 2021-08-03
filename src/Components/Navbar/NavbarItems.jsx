@@ -1,5 +1,6 @@
 import React from 'react';
 import MenuIcon from '@material-ui/icons/Menu';
+import {NavLink} from 'react-router-dom'
 
 export default function NavbarItems() {
 
@@ -41,7 +42,7 @@ export default function NavbarItems() {
     return (        
     <>
         <div className="menu-item">
-            <a href="/launch-app" className="menu-link" target="_blank">Launch App</a>
+            <NavLink to="/launch-app" className="menu-link" >Launch App</NavLink>
         </div>
         <div className="menu-item">
             <a href="#" className="menu-link" target="_blank">Launch Your Product</a>

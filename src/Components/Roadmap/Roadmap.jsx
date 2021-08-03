@@ -21,10 +21,11 @@ export default function Roadmap() {
                 </div>
                 <div className="roadmap-cont-1">
                     <div className="timeline">
-                        <Chrono mode={mode} cardWidth="300" hideControls={true} cardHeight="100" useReadMore={false} theme={{ 
+
+                        <Chrono mode={mode} cardWidth="100%" cardHeight="100" useReadMore={false} theme={{ 
                             primary: "#496BD9",
-                            secondary: "#496BD9",
-                            cardBgColor: "white",
+                            secondary: "white",
+                            cardBgColor: "#FFC40000",
                             cardForeColor: "white",
                             titleColor: "white"
                         }}>
