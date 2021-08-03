@@ -5,7 +5,6 @@ import Particles from '../../Particles';
 import Footer from '../Footer/Footer.jsx';
 import Tabs from './Tabs.jsx';
 import Upcoming from './Pages/Ucoming.jsx';
-import Box from './Box.jsx';
 import './LaunchApp.css';
 
 export default function LaunchApp() {

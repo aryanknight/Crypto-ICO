@@ -1,0 +1,77 @@
+.launch1-box-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.launch1-box{
+    width: 40%;
+    background: rgba( 255, 255, 255, 0.30 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    padding: 1rem;
+    margin: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.launch1-box-button{
+    font-size: 16px;
+    border-radius: 8px;
+    background: #318CE7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.launch1-sub-head{
+    font-size: 16px;
+    color:#e2e2e2;
+}
+    
+.launch1-sub-text{
+    font-size: 16px;
+    color:#e2e2e2;
+    margin-top: 40px;
+}
+
+.launch1-mini-box{
+    display: flex;
+    padding: 1rem;
+    border-top: 1px solid white;
+}
+
+.launch1-mini-1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.table-cont{
+    position: relative;
+    z-index: 5;
+    margin-top: 60px;
+    padding: 1rem;
+}
+    
+.table-button{
+    padding: 0.6rem 1.2rem;
+    border: none;
+    background-color: #194089;
+    border-radius: 8px;
+    cursor:pointer;
+    color: white;
+}
+
+@media (max-width:800px){
+    .launch1-box{
+        width: 100%;
+    }    
+}

@@ -133,3 +133,12 @@ progress[value]::-webkit-progress-bar {
         font-size: 16px;
     }
 }
+
+@media(min-width:1500px){
+
+    .launch-app-cont-1{
+        width: 65%;
+        max-width: 65%;
+    }
+
+}
