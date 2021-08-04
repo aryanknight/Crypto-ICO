@@ -54,7 +54,7 @@ export default function WhyMultipad() {
                         </div>
                     </div>
                     
-                    <div className="backed-by">
+                    <div className="backed-by" data-aos="fade-up">
                         <Particles />
                         <div className="backed-by-head">BACKED BY</div>
                         <div className="backed-by-cont">

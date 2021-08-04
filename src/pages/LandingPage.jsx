@@ -52,7 +52,7 @@ function LandingPage() {
       <ProbAndSol />
       <TokenUtility />
       <Tokenomics />
-      <TokenSale/>
+      {/* <TokenSale/> */}
       <Roadmap/>
       <FAQ />
       <Footer />

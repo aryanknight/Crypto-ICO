@@ -6,6 +6,11 @@
     position: relative;
 }
 
+#faq-circle{
+    position: absolute;
+    left: -20%;
+}
+
 .faq-cont{
     width: 85%;
     max-width: 85%;
@@ -67,6 +72,10 @@
         margin-top: 100px;
     }
 
+    #faq-circle{
+        left:-80%;
+    }
+
     .faq-box{
         width: 100%;
     }
@@ -85,5 +94,10 @@
     .faq-cont{
         width: 65%;
         max-width: 65%;
+    }
+
+    #faq-circle{
+        left: -20%;
+        width: 50%;
     }
 }

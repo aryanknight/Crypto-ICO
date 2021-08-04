@@ -1,11 +1,13 @@
 import React from 'react';
 import QnA from './QnA';
+import Circles from "../../Images/circles.png";
 import './FAQ.css';
 
 export default function FAQ() {
 
     return (
         <div className='faq'>
+            <img src={Circles} id="faq-circle" />
             <div className="faq-cont">
                 <div className="head-text" data-aos="fade-up">
                     <div className="shade-text">QUESTION</div>

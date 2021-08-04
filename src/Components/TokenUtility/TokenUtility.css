@@ -3,7 +3,15 @@
     display: flex;
     justify-content: center;
     margin-top: 200px;
-    
+    position: relative;
+    z-index: 1;
+}
+
+#utility-circle{
+    position: absolute;
+    width:40%;
+    left: -20%;
+    z-index: 0;
 }
 
 .token-cont{
@@ -20,7 +28,7 @@
 }
 
 .token-cont-left{
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +76,7 @@
 }
 
 .token-cont-right{
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -95,6 +103,17 @@
 
     .token{
         margin-top: 100px;
+    }
+
+    #utility-circle{
+        width:90%;
+        top:20%;
+        left: -50%;
+        z-index: 0;
+    }
+
+    .token-cont-1{
+        margin-top: 50px;
     }
 
     .token-cont-left{
@@ -130,4 +149,16 @@
         font-size:14px
     }
 
+    #our-coin{
+        width:50%;
+    }
+
+}
+
+@media(min-width:1500px){
+
+    .token-cont{
+        width: 65%;
+        max-width: 65%;
+    }
 }

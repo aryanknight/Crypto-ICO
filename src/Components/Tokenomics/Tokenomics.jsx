@@ -1,5 +1,5 @@
 import React from 'react';
-import OurCoin from "../../Images/ourcoin.png";
+import PieChart from '../../Images/piechart.png'
 import './Tokenomics.css'; 
 
 export default function Tokenomics() {
@@ -13,7 +13,7 @@ export default function Tokenomics() {
                 <div className="tokenomics-cont-1" >
                     
                     <div className="tokenomics-left" data-aos="fade-up">
-                        <img src={OurCoin} id="our-coin" />
+                        <img src={PieChart} id="pie" />
                     </div>
 
                     <div className="tokenomics-right">

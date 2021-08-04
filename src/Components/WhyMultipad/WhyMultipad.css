@@ -129,7 +129,8 @@
 
     #why-circles{
         position: absolute;
-        right: -10%;
+        right: -30%;
+        width: 50%;
     }
 
 }

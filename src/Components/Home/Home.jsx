@@ -34,7 +34,7 @@ export default function Home() {
                 <img id="home-circles" src={Circles} />
 
                 <div className="home-text-2-1" data-aos="fade-up">
-                    <div className="about-shade">ABOUT</div>
+                    <div className="about-shade" id="about">ABOUT</div>
                     WHAT IS MULTIPAD
                 </div>
                 <div className="home-text-2 home-text-2-2" data-aos="fade-up">
@@ -63,7 +63,7 @@ export default function Home() {
                 </div>
 
 
-                <div className="backed-by">
+                <div className="backed-by" data-aos="fade-up">
                         <Particles />
                         <div className="backed-by-head">POWERED BY</div>
                         <div className="backed-by-cont">

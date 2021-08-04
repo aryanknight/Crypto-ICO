@@ -2,6 +2,7 @@ import React from 'react';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import { ReactComponent as Logo } from '../../Images/medium.svg';
+import {NavLink} from 'react-router-dom';
 import './Footer.css';
 
 export default function Footer() {
@@ -28,13 +29,13 @@ export default function Footer() {
                         Useful Links
                     </div>
                     <li className="footer-li">
-                        <a className="menu-link" href="#" target="_blank">About Us</a>
+                        <a className="menu-link" href="#about">About Us</a>
                     </li>
                     <li className="footer-li">
-                        <a className="menu-link" href="#" target="_blank">Launch App</a>
+                        <NavLink to="/launch-app" className="menu-link" >Launch App</NavLink>
                     </li>
                     <li className="footer-li">
-                        <a className="menu-link" href="#" target="_blank">Launch Your Project</a>
+                        <a className="menu-link" href="https://docs.google.com/forms/d/e/1FAIpQLSerz7SIGT-XG91WMBI1-bVpmouiBVNt0B1iW8z1VdLkIxRrHQ/viewform" target="_blank">Launch Your Project</a>
                     </li>
                     <li className="footer-li">
                         <a className="menu-link" href="https://multipad.gitbook.io/multipad/" target="_blank">Documentation</a>

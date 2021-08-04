@@ -45,13 +45,13 @@ export default function NavbarItems() {
             <NavLink to="/launch-app" className="menu-link" >Launch App</NavLink>
         </div>
         <div className="menu-item">
-            <a href="#" className="menu-link" target="_blank">Launch Your Product</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSerz7SIGT-XG91WMBI1-bVpmouiBVNt0B1iW8z1VdLkIxRrHQ/viewform" className="menu-link" target="_blank">Launch Your Product</a>
         </div>
         <div className="menu-item">
             <a className="menu-link" href="https://multipad.gitbook.io/multipad/" target="_blank">Documentation</a>
         </div>
         <div className="menu-item">
-            <a href="https://multipad.co/77b74b2ad8f9c55e8e05d25520711cc2.pdf" className="menu-link" target="_blank">One Pager</a>
+            <a href="/OnePager.pdf" className="menu-link" target="_blank">One Pager</a>
         </div>
         {/* <div className="menu-item">Token Sale</div>
         <div className="menu-item">Roadmap</div> */}

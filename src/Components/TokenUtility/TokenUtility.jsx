@@ -1,10 +1,12 @@
 import React from 'react';
-import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
+import OurCoin from "../../Images/ourcoin.png";
+import Circles from "../../Images/circles.png";
 import './TokenUtility.css';
 
 export default function TokenUtility() {
     return (
         <div className="token">
+            <img src={Circles} id="utility-circle" />
             <div className="token-cont">
                 <div className="head-text" data-aos="fade-up">
                     <div className="shade-text">UTILITY</div>
@@ -13,15 +15,7 @@ export default function TokenUtility() {
                 <div className="token-cont-1">
 
                     <div className="token-cont-left" data-aos="fade-up">
-                        <div className="token-box">
-                            <div className="token-text-box">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit  term 
-                            </div>
-                            <div className="token-doc-box"  >
-                                <a href="https://multipad.gitbook.io/multipad/" target="_blank" id="docs-link">Read Documentation...</a>
-                            </div>
-                            <img src="https://multipad.co/5dad980d25aa83ccca7a7bd601acaec4.png" id="token-logo" />
-                        </div>
+                            <img src={OurCoin} id="our-coin"/>
                     </div>
 
                     <div className="token-cont-right">
