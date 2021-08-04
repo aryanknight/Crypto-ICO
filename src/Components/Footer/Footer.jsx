@@ -29,10 +29,10 @@ export default function Footer() {
                         Useful Links
                     </div>
                     <li className="footer-li">
-                        <a className="menu-link" href="#about">About Us</a>
+                        <a className="menu-link" href="/#about">About Us</a>
                     </li>
-                    <li className="footer-li">
-                        <NavLink to="/launch-app" className="menu-link" >Launch App</NavLink>
+                    <li className="footer-li" >
+                        <a href="/launch-app" className="menu-link" >Launch App</a>
                     </li>
                     <li className="footer-li">
                         <a className="menu-link" href="https://docs.google.com/forms/d/e/1FAIpQLSerz7SIGT-XG91WMBI1-bVpmouiBVNt0B1iW8z1VdLkIxRrHQ/viewform" target="_blank">Launch Your Project</a>
