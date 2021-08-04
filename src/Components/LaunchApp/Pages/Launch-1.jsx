@@ -5,6 +5,7 @@ import Particles from '../../../Particles';
 import Footer from '../../Footer/Footer.jsx';
 import LaunchLogo from '../../../Images/launch1logo.png';
 import {Table , TableBody , TableCell , TableContainer , TableHead , TableRow , Paper} from "@material-ui/core";
+import HoverMenu from '../../../Components/Navbar/HoverMenu';
 import { makeStyles} from "@material-ui/core/styles";
 import './Launch1.css';
 
@@ -39,8 +40,10 @@ export default function Launch1() {
 
     return (
         <div className="launch-app">
+
             <Navbar />
             <NavbarSmall />
+            <HoverMenu />
             <div style={{position:'fixed',width:'100%',height:'100vh'}}>
                 <Particles />
             </div>

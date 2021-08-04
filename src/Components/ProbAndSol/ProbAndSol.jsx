@@ -1,6 +1,6 @@
 import React from 'react';
 import Prob1 from '../../Images/prob-1.png';
-import Prob2 from '../../Images/prob-2.png';
+import Prob2 from '../../Images/solimg.png';
 import './ProbAndSol.css';
 
 export default function ProbAndSol() {

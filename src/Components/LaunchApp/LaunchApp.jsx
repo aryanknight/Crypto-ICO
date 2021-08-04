@@ -5,6 +5,7 @@ import Particles from '../../Particles';
 import Footer from '../Footer/Footer.jsx';
 import Tabs from './Tabs.jsx';
 import Upcoming from './Pages/Ucoming.jsx';
+import HoverMenu from '../../Components/Navbar/HoverMenu';
 import './LaunchApp.css';
 
 export default function LaunchApp() {
@@ -19,6 +20,7 @@ export default function LaunchApp() {
         <div className="launch-app">
             <Navbar />
             <NavbarSmall />
+            <HoverMenu />
             <div style={{position:'fixed',width:'100%',height:'100vh'}}>
                 <Particles />
             </div>

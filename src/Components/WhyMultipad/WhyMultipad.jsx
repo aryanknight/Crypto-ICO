@@ -1,6 +1,14 @@
 import React from 'react';
 import ManGif from '../../Images/man.gif';
 import Circles from "../../Images/circles.png";
+import Particles from '../../Particles';
+import BlackDragon from '../../Images/black.png';
+import Polygon from '../../Images/polygon.png';
+import Wealth from '../../Images/wealth.png';
+import Dutch from '../../Images/dutch.png';
+import Topek from '../../Images/topek.png';
+import Cspdao from '../../Images/cspdao.png';
+import Oig from '../../Images/oig.png';
 import "./WhyMultipad.css"
 
 export default function WhyMultipad() {
@@ -43,6 +51,34 @@ export default function WhyMultipad() {
                         </div>
                         <div className="token-para" data-aos="fade-up">
                             Every major project has a monopoly on certain chain projects. In order to participate in different blockchains you need to hold different launchpad tokens. Multipad solves all this, holding MPAD would enable you to participate in launchpads on Binance smart chain, Polygon , Avalanche and Cardano.
+                        </div>
+                    </div>
+                    
+                    <div className="backed-by">
+                        <Particles />
+                        <div className="backed-by-head">BACKED BY</div>
+                        <div className="backed-by-cont">
+                            <div className="backed-by-img-cont">
+                                <img src={Polygon} className="backed-img-1" />
+                            </div>
+                            <div className="backed-by-img-cont">
+                                <img src={Wealth} alt="" />
+                            </div>
+                            <div className="backed-by-img-cont">
+                                <img src={BlackDragon} alt="" />
+                            </div>
+                            <div className="backed-by-img-cont">
+                                <img src={Topek} className="backed-img-1" />
+                            </div>
+                            <div className="backed-by-img-cont">
+                                <img src={Dutch} className="backed-img-2" />
+                            </div>
+                            <div className="backed-by-img-cont">
+                                <img src={Oig} className="backed-img-2" />
+                            </div>
+                            <div className="backed-by-img-cont" id="last-backed">
+                                <img src={Cspdao} className="backed-img-1" />
+                            </div>
                         </div>
                     </div>
                 </div>
