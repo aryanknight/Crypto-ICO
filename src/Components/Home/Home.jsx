@@ -1,6 +1,12 @@
 import React from 'react';
 import Circles from "../../Images/circles.png";
 import FeatureImg from '../../Images/featureimg.png';
+import Particles from '../../Particles';
+import Polygon from '../../Images/polygoncolor.png';
+import Bnb from '../../Images/bnb.png';
+import Ava from '../../Images/ava.png';
+import Cardano from '../../Images/cardano.png';
+import Solana from '../../Images/solana.png';
 import './Home.css';
 
 export default function Home() {
@@ -55,6 +61,29 @@ export default function Home() {
                         <img src={FeatureImg} alt="" id="feature-img" />
                     </div>
                 </div>
+
+
+                <div className="backed-by">
+                        <Particles />
+                        <div className="backed-by-head">POWERED BY</div>
+                        <div className="backed-by-cont">
+                            <div className="powered-by-img-cont">
+                                <img src={Polygon}  />
+                            </div>
+                            <div className="powered-by-img-cont">
+                                <img src={Bnb} alt="" />
+                            </div>
+                            <div className="powered-by-img-cont">
+                                <img src={Ava} />
+                            </div>
+                            <div className="powered-by-img-cont">
+                                <img src={Solana} />
+                            </div>
+                            <div className="powered-by-img-cont">
+                                <img src={Cardano} />
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     )

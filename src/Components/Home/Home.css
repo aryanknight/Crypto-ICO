@@ -159,6 +159,14 @@
     padding: 1rem 0rem;
     font-size: 16px;
 }
+.powered-by-img-cont{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
 /* ---------------------------------------------Media Queries------------------------------------------------------ */
 
 @media (max-width:1000px){
@@ -204,7 +212,18 @@
     #anim-img{
         max-width: 50%;
     }
+
+    .powered-by-img-cont{
+        width:32%;
+    }
     
+}
+
+@media (max-width:850px){
+
+    .powered-by-img-cont{
+        width:50%;
+    }
 }
 
 
@@ -281,6 +300,10 @@
     .home-cont-2-text-3{
         width: 100%;
         font-size: 14px;
+    }
+
+    .powered-by-img-cont{
+        width:100%;
     }
     
 }
