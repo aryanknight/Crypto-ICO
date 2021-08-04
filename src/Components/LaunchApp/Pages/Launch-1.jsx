@@ -26,6 +26,16 @@ export default function Launch1() {
 
     const classes = useStyles();
 
+    const buttonClickContribute=()=>{
+        // write function here
+        console.log('Contribute button clicked');
+    }
+
+    const buttonClickWebsite=()=>{
+        // write function here
+        console.log('Website button clicked');
+    }
+
     useEffect(()=>{
         window.scrollTo(0, 0);
     },[]);
@@ -67,7 +77,7 @@ export default function Launch1() {
                                 </div>
                             </div>
 
-                            <div className="launch1-box-button">
+                            <div className="launch1-box-button" onClick={buttonClickWebsite}>
                                 WEBSITE
                             </div>
 
@@ -119,7 +129,7 @@ export default function Launch1() {
                                         <div className="">0 MPAD</div>
                                     </div>
                                 </div>
-                                <div className="launch1-box-button">
+                                <div className="launch1-box-button" onClick={buttonClickContribute}>    
                                     CONTRIBUTE
                                 </div>
 
@@ -145,12 +155,12 @@ export default function Launch1() {
                                 
                                 {items.map((item) =>(
                                     <TableRow style={{backgroundColor:'#ffffff01'}}>
-                                        <TableCell component="th" scope="row">
+                                        <TableCell component="th" scope="row" >
                                             {item.no}
                                         </TableCell>
-                                        <TableCell align="right">{item.alloc}</TableCell>
-                                        <TableCell align="right">{item.date}</TableCell>
-                                        <TableCell align="right">{item.claimed}</TableCell>
+                                        <TableCell align="right" >{item.alloc}</TableCell>
+                                        <TableCell align="right" >{item.date}</TableCell>
+                                        <TableCell align="right" >{item.claimed}</TableCell>
                                         <TableCell align="right">
                                             <button className="table-button">CLAIM</button>
                                         </TableCell>
