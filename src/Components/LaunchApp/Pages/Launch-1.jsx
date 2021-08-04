@@ -41,6 +41,8 @@ export default function Launch1() {
     },[]);
 
     
+    //Items for table
+
     const items=[{no:1,alloc:0,date:'27/04/20',claimed:'0'},
                 {no:2,alloc:98,date:'21/04/18',claimed:'12'},
                 {no:3,alloc:85,date:'27/04/19',claimed:'30'},
