@@ -23,14 +23,16 @@
 }
 
 .navbar-left{
-    
+    justify-content: flex-start;
     display: flex;
     align-items: center;
     cursor: pointer;
+    
 }
 
 #logo{
     max-width: 60%;
+    
 }
 
 .navbar-right{

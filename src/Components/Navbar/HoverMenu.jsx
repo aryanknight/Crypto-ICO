@@ -1,6 +1,5 @@
 import React ,{useState} from 'react';
 import TwitterIcon from '@material-ui/icons/Twitter';
-import GitHubIcon from '@material-ui/icons/GitHub';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import { ReactComponent as Logo } from '../../Images/medium.svg';
 
