@@ -6,6 +6,8 @@ import gsap from 'gsap';
 export default function QnA({question,answer,no}) {
 
     const expandAns =()=>{
+        const allAns=document.getElementsByClassName("faq-ans");
+        const allCircle=document.getElementsByClassName("add-circle");
         const ans=document.getElementsByClassName("faq-ans")[no];
         const circle=document.getElementsByClassName("add-circle")[no];
         if(ans.style.maxHeight){
@@ -14,6 +16,12 @@ export default function QnA({question,answer,no}) {
         }else{
             circle.style.transform = 'rotate(135deg)';
             ans.style.maxHeight=ans.scrollHeight + "px";  
+            for (var i=0;i<allAns.length;i++){
+                if(i!=no){
+                    allAns[i].style.maxHeight= null;
+                    allCircle[i].style.transform = 'rotate(0deg)';
+                }
+            }
         }
     }
     return (

@@ -38,7 +38,7 @@ export default function WhyMultipad() {
                             High gas fees: 
                         </div>
                         <div className="token-para" data-aos="fade-up">
-                            It costs over $200 on ETH to claim and sell one’s ido tokens which is a major chunk for small investors. Claiming vested tokens cost as much as the token value in certain situations. Multipad is concentrating ONLY on low fees blockchains,avoiding high transaction fees altogether.
+                            Some blockchains cost high fees and sell one’s ido tokens which is a major chunk for small investors. Claiming vested tokens cost as much as the token value in certain situations. Multipad is concentrating only on low fees blockchains,avoiding high transaction fees altogether.
                         </div>
                         <div className="token-head" data-aos="fade-up">
                              Low allocations: 
@@ -50,7 +50,7 @@ export default function WhyMultipad() {
                             Multiple tokens for multiple chains:
                         </div>
                         <div className="token-para" data-aos="fade-up">
-                            Every major project has a monopoly on certain chain projects. In order to participate in different blockchains you need to hold different launchpad tokens. Multipad solves all this, holding MPAD would enable you to participate in launchpads on Binance smart chain, Polygon , Avalanche and Cardano.
+                            Every major project has a monopoly on certain chain projects. In order to participate in different blockchains you need to hold different launchpad tokens. Multipad solves all this, holding MPAD would enable you to participate in launchpads on Binance smart chain, Polygon , Solana , Avalanche and Cardano.
                         </div>
                     </div>
                     
