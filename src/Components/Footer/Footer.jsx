@@ -4,13 +4,14 @@ import TelegramIcon from '@material-ui/icons/Telegram';
 import { ReactComponent as Logo } from '../../Images/medium.svg';
 import {NavLink} from 'react-router-dom';
 import './Footer.css';
+import logo from '../../Images/launch1logo.png'
 
 export default function Footer() {
     return (
         <div className="footer">
             <div className="footer-cont">
                 <div className="footer-sec-1">
-                    <img src="https://multipad.co/5dad980d25aa83ccca7a7bd601acaec4.png" id="logo" />
+                    <img src={logo} id="logo" />
                     <div className="footer-text">
                         MultiPad is a community-governed decentralized multi-chain powered launchpad, enabling upcoming promising projects to raise funds.
                     </div>

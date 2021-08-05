@@ -8,6 +8,7 @@ import Bnb from '../../Images/bnb.png';
 import Ava from '../../Images/ava.png';
 import Cardano from '../../Images/cardano.png';
 import Solana from '../../Images/solana.png';
+import opacity from '../../Images/opacity.png'
 import './Home.css';
 
 export default function Home() {

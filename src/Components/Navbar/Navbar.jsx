@@ -2,7 +2,7 @@ import React from 'react';
 import NavbarItems from './NavbarItems';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-
+import logo from '../../Images/launch1logo.png'
 export default function Navbar() {
 
     
@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className='navbar-cont'>
                 <div className="navbar-left">
                    <a href="/">
-                        <img src="https://multipad.co/5dad980d25aa83ccca7a7bd601acaec4.png" id="logo" />
+                   <img src={logo} id="logo" />
                     </a>
                 </div>
 
