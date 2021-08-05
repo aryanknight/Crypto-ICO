@@ -5,9 +5,9 @@ import Box from '../Box.jsx';
 export default function Active() {
     return (
         <div className="active">
-            <Box />
-            <Box />
-            <Box />
+           <div style={{height: '100vh'}}>
+
+           </div>
         </div>
     )
 }

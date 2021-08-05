@@ -43,12 +43,11 @@ export default function Launch1() {
     
     //Items for table
 
-    const items=[{no:1,alloc:0,date:'27/04/20',claimed:'0'},
-                {no:2,alloc:98,date:'21/04/18',claimed:'12'},
-                {no:3,alloc:85,date:'27/04/19',claimed:'30'},
-                {no:4,alloc:0,date:'27/04/20',claimed:'0'},
-                {no:5,alloc:98,date:'21/04/18',claimed:'12'},
-                {no:6,alloc:85,date:'27/04/19',claimed:'30'}];
+    const items=[{no:1,alloc:0,date:'-',claimed:'0'},
+                {no:2,alloc:0,date:'-',claimed:'0'},
+                {no:3,alloc:0,date:'-',claimed:'0'},
+                {no:4,alloc:0,date:'-',claimed:'0'},
+                ];
 
     return (
         <div className="launch-app">
@@ -97,8 +96,8 @@ export default function Launch1() {
                                 0 Sold of 10000
                             </div>
                             <div className="progress-bar-cont">
-                                <progress max="100" value="47" style={{width:'90%'}}></progress>
-                                <div >47%</div>
+                                <progress max="100" value="0" style={{width:'90%'}}></progress>
+                                <div >0%</div>
                             </div>
 
                             <div className="launch1-mini-box" style={{marginTop:'40px'}}>
@@ -108,23 +107,23 @@ export default function Launch1() {
                                 </div>
                                 <div className="launch1-mini-1">
                                     <div className="">Time Remaining</div>
-                                    <div className="">1m : 0s</div>
+                                    <div className="">0m : 0s</div>
                                 </div>
                             </div>
                             <div className="launch1-mini-box">
                                 <div className="launch1-mini-1">
                                         <div style={{textAlign:'center'}}>Min Allocation</div>
-                                        <div>0.00001 NA</div>
+                                        <div>0.0 N/A</div>
                                     </div>
                                     <div className="launch1-mini-1">
                                         <div className="">Max Allocation</div>
-                                        <div className="">10000 NA</div>
+                                        <div className=""> N/A</div>
                                     </div>
                                 </div>
                                 <div className="launch1-mini-box">
                                     <div className="launch1-mini-1">
-                                        <div>NA Contribution</div>
-                                        <div>0.000000 NA</div>
+                                        <div>N/A Contribution</div>
+                                        <div>N/A</div>
                                     </div>
                                     <div className="launch1-mini-1">
                                         <div className="">MPAD Allocation</div>
@@ -143,9 +142,9 @@ export default function Launch1() {
 
                     <div className="table-cont">
                         <TableContainer component={Paper}>
-                            <Table >
+                            <Table  >
                                 <TableHead>
-                                <TableRow className={classes.tableHead}>
+                                <TableRow style={{backgroundImage: 'linear-gradient(40deg, #252525, #3503be)'}}>
                                     <TableCell style={{color:'white'}} >NO</TableCell>
                                     <TableCell align="right" style={{color:'white'}}>TOKEN ALLOCATIONS</TableCell>
                                     <TableCell align="right" style={{color:'white'}}>DATE</TableCell>
@@ -156,14 +155,14 @@ export default function Launch1() {
                                 <TableBody>
                                 
                                 {items.map((item) =>(
-                                    <TableRow style={{backgroundColor:'#ffffff01'}}>
+                                    <TableRow style={{backgroundImage: 'linear-gradient(40deg, #b4b4b4, #b4b4b4)'}} >
                                         <TableCell component="th" scope="row" >
                                             {item.no}
                                         </TableCell>
-                                        <TableCell align="right" >{item.alloc}</TableCell>
-                                        <TableCell align="right" >{item.date}</TableCell>
-                                        <TableCell align="right" >{item.claimed}</TableCell>
-                                        <TableCell align="right">
+                                        <TableCell  align="right" >{item.alloc}</TableCell>
+                                        <TableCell  align="right" >{item.date}</TableCell>
+                                        <TableCell  align="right" >{item.claimed}</TableCell>
+                                        <TableCell  align="right">
                                             <button className="table-button">CLAIM</button>
                                         </TableCell>
                                     </TableRow>

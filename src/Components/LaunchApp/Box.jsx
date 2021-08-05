@@ -25,8 +25,8 @@ export default function Box() {
             <div className="progress-bar">
                     <div style={{marginTop:'10px'}} >Progress</div>
                     <div className="progress-bar-cont">
-                        <progress max="100" value="47"></progress>
-                        <div >47%</div>
+                        <progress max="100" value="0"></progress>
+                        <div >0%</div>
                     </div>     
             </div>
 
