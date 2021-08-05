@@ -71,8 +71,7 @@ progress[value]::-webkit-progress-bar {
   }
   
   progress[value]::-webkit-progress-value {
-    background-color: rgb(0, 140, 255);
-    
+    background-image: linear-gradient(40deg, #f959ff, #b700ff);
   }
 
 

@@ -15,7 +15,7 @@ const useStyles = makeStyles({
       maxWidth: 1000,
     },
     tableHead:{
-        backgroundColor:'#194089'
+        backgroundImage: "linear-gradient(40deg, #f959ff, #b700ff)"
     },
     tableHeadItem:{
         color:'white'

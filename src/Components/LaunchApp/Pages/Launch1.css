@@ -65,7 +65,7 @@
 .table-button{
     padding: 0.6rem 1.2rem;
     border: none;
-    background-color: #194089;
+    background-image: linear-gradient(40deg, #f959ff, #b700ff);
     border-radius: 8px;
     cursor:pointer;
     color: white;
