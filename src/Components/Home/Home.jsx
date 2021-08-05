@@ -1,4 +1,5 @@
 import React from 'react';
+import Banner from '../../Images/banner.gif';
 import Circles from "../../Images/circles.png";
 import FeatureImg from '../../Images/featureimg.png';
 import Particles from '../../Particles';
@@ -26,7 +27,7 @@ export default function Home() {
                 </div>
                 
                 <div className="home-right" >
-                    <img id="anim-img" src="https://multipad.co/162fc25721d32ca0accf57ebe0e5d952.gif" alt="" />
+                    <img id="anim-img" src={Banner} alt="" />
                 </div>
             </div>
 

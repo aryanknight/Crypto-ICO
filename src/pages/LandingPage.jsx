@@ -49,7 +49,7 @@ function LandingPage() {
       
       <Home />
       <WhyMultipad/>
-      <ProbAndSol />
+      {/* <ProbAndSol /> */}
       <TokenUtility />
       <Tokenomics />
       {/* <TokenSale/> */}
