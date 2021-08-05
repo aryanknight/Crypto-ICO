@@ -127,6 +127,11 @@ progress[value]::-webkit-progress-bar {
     color: white;
 }
 
+.change-size{
+    transform: scale(1.2,1.2);
+    background-image: linear-gradient(40deg, #252525, #6a34ff);
+}
+
 @media(max-width:800px){
     
 

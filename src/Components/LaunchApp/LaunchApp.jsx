@@ -25,7 +25,7 @@ export default function LaunchApp() {
                 <Particles />
             </div>
             
-            <Tabs tab={tab} setTab={setTab}/>
+            <Tabs setTab={setTab}/>
             <div className="launch-app-cont">
                 <div className="launch-app-cont-1">
                     {tab}

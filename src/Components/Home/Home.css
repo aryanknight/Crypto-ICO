@@ -184,7 +184,7 @@
     
     #anim-img{
         max-width: 200%;
-        min-width: 80%;
+        min-width: 100%;
     }
 
     .home-text-1{
@@ -230,7 +230,8 @@
     }
 
     #anim-img{
-        max-width: 100%;
+        max-width: 150%;
+        min-width: 150%;
     }
     
     #home-circles{
