@@ -36,7 +36,7 @@ export default function Tokenomics() {
                             Liquidity: 10% (20% unlocked at TGE , 20% unlocked each month thereafter)
                         </div>
                         <div className="token-para-1" data-aos="fade-up">
-                            Public Token Sale: 15% (40% unlocked at TGE followed by 20% every two weeks)
+                            Public token sale : 15%(25% unlocked at TGE followed by 25% every two weeks)
                         </div>
                         <div className="token-para-1" data-aos="fade-up">
                             Partners: 10% (20% unlocked at TGE followed by 20% every two weeks)
