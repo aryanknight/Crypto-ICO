@@ -13,9 +13,9 @@ import './Home.css';
 export default function Home() {
     return (
         <div className="home" >
-            <div className="home-cont-1" data-aos="fade-up">
+            <div className="home-cont-1" >
                 
-                <div className="home-left">
+                <div className="home-left" data-aos="fade-up">
                     <div className="home-text-1">
                         <span style={{fontWeight:'bolder'}}>MultiPad</span> is a community governed, decentralized multi-chain powered launchpad.
                     </div>
@@ -26,7 +26,7 @@ export default function Home() {
                     </div>
                 </div>
                 
-                <div className="home-right" >
+                <div className="home-right" data-aos="slide-left">
                     <img id="anim-img" src={Banner} alt="" />
                 </div>
             </div>
