@@ -31,7 +31,7 @@ export default function Roadmap() {
                         }}>
                             <div className="card">
                                 <div className="card-date">
-                                    Q1
+                                    Q1 2021
                                 </div>
                                 <div className="card-options">
                                     <li className="card-li">
@@ -43,7 +43,7 @@ export default function Roadmap() {
 
                             <div className="card">
                                 <div className="card-date">
-                                    Q2
+                                    Q2 2021
                                 </div>
                                 <div className="card-options">
                                     <li className="card-li">
@@ -60,7 +60,7 @@ export default function Roadmap() {
 
                             <div className="card">
                                 <div className="card-date">
-                                    Q3
+                                    Q3 2021
                                 </div>
                                 <div className="card-options">
                                     <li className="card-li">
@@ -74,7 +74,7 @@ export default function Roadmap() {
 
                             <div className="card">
                                 <div className="card-date">
-                                    Q4
+                                    Q4 2021
                                 </div>
                                 <div className="card-options">
                                     <li className="card-li">
